@@ -12,7 +12,7 @@ const Navbar = () => {
       <h1 className="w-full text-3xl font-bold text-[#00b4d8]">LuA1i</h1>
       <ul className="hidden md:flex">
         <Link
-          to={'/'}
+          to='/'
           className="hover:text-[#00b4d8] ease-in-out duration-500"
         >
           <li className="p-4">Home</li>
