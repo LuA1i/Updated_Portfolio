@@ -23,6 +23,11 @@ const Hero = () => {
           <FaGithub size={20} className="mx-3" />
           <FaLinkedin size={20} />
         </div>
+        <div className="flex justify-center items-center">
+          <button className="border-2 border-[#00b4d8] text-[#00b4d8] text-sm font-bold px-4 py-1 mt-2 ml-4 md:px-6 md:text-base hover:bg-[#00b4d8] hover:text-black ease-in-out duration-500 uppercase">
+            My CV
+          </button>
+        </div>
       </div>
     </div>
   )

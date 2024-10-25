@@ -1,21 +1,19 @@
-import React from 'react'
-import Navbar from './components/Navbar/Navbar'
-import Hero from './components/Hero/Hero'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Projects from './pages/Projects'
+import React from 'react';
+import Navbar from './components/Navbar/Navbar';
+import Hero from './components/Hero/Hero';
+import Projects from './components/Projects/Projects';
+import About from './components/About/About';
 
 function App() {
   return (
     <div className="text-white">
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route path="/Updated_Portfolio" element={<Hero />} />
-          <Route path="/projects" element={<Projects />} />
-        </Routes>
-      </Router>
+      <Navbar />
+      <Hero id="hero" />
+      <About id="about" />
+      <Projects id="projects" />
+      {/* Add more sections here if needed */}
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
