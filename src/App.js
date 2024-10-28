@@ -1,8 +1,8 @@
-import React from 'react';
-import Navbar from './components/Navbar/Navbar';
-import Hero from './components/Hero/Hero';
-import Projects from './components/Projects/Projects';
-import About from './components/About/About';
+import React from 'react'
+import Navbar from './components/Navbar/Navbar'
+import Hero from './components/Hero/Hero'
+import Projects from './components/Projects/Projects'
+import About from './components/About/About'
 
 function App() {
   return (
@@ -11,9 +11,8 @@ function App() {
       <Hero id="hero" />
       <About id="about" />
       <Projects id="projects" />
-      {/* Add more sections here if needed */}
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
