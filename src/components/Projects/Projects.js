@@ -16,10 +16,20 @@ const Projects = () => {
               alt={project.title}
               className="w-full h-58 object-cover"
             />
-          
+
             <div className="p-3 pt-9 ">
               <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
               <p className="text-[#00b4d8] text-sm">{project.description}</p>
+            </div>
+            <div className="flex items-center justify-center ">
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noreferrer noopener"
+                className="bg-[#000300] border-2 border-[#00b4d8]  text-white py-1 px-3 mt-2 hover:bg-[#0096c7] transition-colors duration-300 cursor-pointer"
+              >
+                View Project
+              </a>
             </div>
           </div>
         ))}
