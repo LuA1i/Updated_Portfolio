@@ -16,9 +16,18 @@ const Projects = () => {
               alt={project.title}
               className="w-full h-58 object-cover"
             />
+            <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ">
+              <a
+                href="{project.link}"
+                target="_blank "
+                className="bg-[#00b4d8] text-white py-2 px-4 rounded  transition-colors duration-300 "
+              >
+                View Project
+              </a>
+            </div>
             <div className="p-3 pt-9 ">
               <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-              <p className="text-gray-700 text-sm">{project.description}</p>
+              <p className="text-[#00b4d8] text-sm">{project.description}</p>
             </div>
           </div>
         ))}
