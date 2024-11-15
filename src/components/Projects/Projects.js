@@ -3,7 +3,7 @@ import projects from './projectsData'
 
 const Projects = () => {
   return (
-    <div id="projects" className="mx-auto px-10 pt-28 mt-10 text-white">
+    <div id="projects" className="mx-auto px-10 pt-28 mt-52 pb-48 text-white">
       <h2 className="text-4xl text-[#00b4d8] font-bold">Projects</h2>
       <div className="flex flex-wrap justify-center gap-5 pt-10">
         {projects.map((project, index) => (

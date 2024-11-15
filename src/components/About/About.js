@@ -13,7 +13,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="flex flex-col md:flex-row items-center justify-between mx-auto px-10"
+      className="flex flex-col md:flex-row items-center justify-between mx-auto py-36 pt-44  px-10"
     >
       <div className="md:w-1/2">
         <h2 className="text-4xl font-bold mb-4 text-[#00b4d8]">About Me</h2>

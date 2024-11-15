@@ -33,11 +33,11 @@ const Contact = () => {
   }
 
   return (
-    <div className="mt-16 sm:px-10">
-      <p className="text-4xl font-bold text-[#00b4d8] sm:text-left">
+    <div id="contact" className="mt-52  sm:px-10">
+      <p className="text-4xl px-10 sm:px-0 font-bold text-[#00b4d8] sm:text-left">
         Contact Me
       </p>
-      <div className="flex flex-col sm:flex-row justify-between items-center sm:px-10 ml-10 gap-2">
+      <div className="flex flex-col sm:flex-col justify-between items-center sm:px-10 ml-10 gap-2">
         <div className="w-full py-10 sm:w-1/2 text-center sm:text-left">
           <p className="text-lg px-10">Email: luqman.ali270304@outlook.com</p>
         </div>

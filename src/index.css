@@ -9,3 +9,7 @@ body {
 .custom-bar {
   background: #00b4d8;
 }
+
+html {
+  scroll-behavior: smooth;
+}

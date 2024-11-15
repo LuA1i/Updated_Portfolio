@@ -4,7 +4,7 @@ import { ReactTyped } from 'react-typed'
 
 const Hero = () => {
   return (
-    <div className="text-white ">
+    <div className="text-white pb-28">
       <div className="h-screen w-full mx-auto text-center flex flex-col max-w-[800px] mt-[-96px] justify-center items-center">
         <div className="flex">
           <ReactTyped
