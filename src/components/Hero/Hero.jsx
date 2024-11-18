@@ -4,7 +4,7 @@ import { ReactTyped } from 'react-typed'
 
 const Hero = () => {
   return (
-    <div className="text-white pb-28">
+    <div id='hero' className="text-white pb-28">
       <div className="h-screen w-full mx-auto text-center flex flex-col max-w-[800px] mt-[-96px] justify-center items-center">
         <div className="flex">
           <ReactTyped
@@ -20,8 +20,12 @@ const Hero = () => {
           Hi, Im<span className="text-[#00b4d8]"> Luqman Ali</span>
         </h1>
         <div className="flex py-3  ">
-          <FaGithub size={20} className="mx-3" />
-          <FaLinkedin size={20} />
+          <a href="https://github.com/LuA1i">
+            <FaGithub size={20} className="mx-3" />
+          </a>
+          <a href="https://www.linkedin.com/in/luqman-ali-b577552b4/">
+            <FaLinkedin size={20} />
+          </a>
         </div>
         <div className="flex justify-center items-center">
           <button className="border-2 border-[#00b4d8] text-[#00b4d8] text-sm font-bold px-4 py-1 mt-2 ml-4 md:px-6 md:text-base hover:bg-[#00b4d8] hover:text-black ease-in-out duration-500 uppercase">

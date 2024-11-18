@@ -1,6 +1,6 @@
 import fitnessImg from '../../assets/fitness.png'
 import todoImg from '../../assets/Todo.png'
-import weatherImg from '../../assets/weatherApp.png'
+import dictionaryImg from '../../assets/dictionary.png'
 
 const projects = [
   {
@@ -18,11 +18,10 @@ const projects = [
     link: 'https://lua1i.github.io/ToDo-app/',
   },
   {
-    title: 'Weather App',
-    description:
-      'View Real Time Weather Forecast With The Search Of Country or City',
-    imgSrc: weatherImg,
-    link: 'https://lua1i.github.io/react-weather-app/',
+    title: 'Dictionary App',
+    description: 'Search words, find out meaning with dynamic UI',
+    imgSrc: dictionaryImg,
+    link: 'https://lua1i.github.io/React-Dictionary/',
   },
 ]
 

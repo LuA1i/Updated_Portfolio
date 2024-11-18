@@ -1,31 +1,47 @@
-import React, { useState } from 'react';
-import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
+import React, { useState } from 'react'
+import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
 
 const Navbar = () => {
-  const [nav, setNav] = useState(false);
+  const [nav, setNav] = useState(false)
   const showNav = () => {
-    setNav(!nav);
-  };
+    setNav(!nav)
+  }
 
   return (
     <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white">
       <h1 className="w-full text-3xl font-bold text-[#00b4d8]">LuA1i</h1>
       <ul className="hidden md:flex">
-        <a href="#hero" className="hover:text-[#00b4d8] ease-in-out duration-500">
+        <a
+          href="#hero"
+          className="hover:text-[#00b4d8] ease-in-out duration-500"
+        >
           <li className="p-4">Home</li>
         </a>
-        <a href="#about" className="hover:text-[#00b4d8] ease-in-out duration-500">
+        <a
+          href="#about"
+          className="hover:text-[#00b4d8] ease-in-out duration-500"
+        >
           <li className="p-4">About</li>
         </a>
-        <a href="#projects" className="hover:text-[#00b4d8] ease-in-out duration-500">
+        <a
+          href="#projects"
+          className="hover:text-[#00b4d8] ease-in-out duration-500"
+        >
           <li className="p-4">Projects</li>
         </a>
-        <a href="#contact" className="hover:text-[#00b4d8] ease-in-out duration-500">
+        <a
+          href="#contact"
+          className="hover:text-[#00b4d8] ease-in-out duration-500"
+        >
           <li className="p-4">Contact</li>
         </a>
       </ul>
       <div onClick={showNav} className="block md:hidden">
-        {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
+        {nav ? (
+          <AiOutlineClose className="cursor-pointer" size={20} />
+        ) : (
+          <AiOutlineMenu className="cursor-pointer" size={20} />
+        )}
       </div>
       <div
         className={
@@ -51,7 +67,7 @@ const Navbar = () => {
         </ul>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar

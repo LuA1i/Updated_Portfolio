@@ -18,8 +18,12 @@ function App() {
         <div className="flex justify-between px-20 my-10">
           <p className="text-[#00b4d8]">Luqman Ali</p>
           <div className="flex flex-row">
-            <FaGithub size={20} className="mx-2" />
-            <FaLinkedin size={20} />
+            <a href="https://github.com/LuA1i">
+              <FaGithub size={20} className="mx-3" />
+            </a>
+            <a href="https://www.linkedin.com/in/luqman-ali-b577552b4/">
+              <FaLinkedin size={20} />
+            </a>
           </div>
         </div>
       </div>
